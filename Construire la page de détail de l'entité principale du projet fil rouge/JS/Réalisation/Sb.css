@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f3ef;
+    color: #263b32;
+    text-align: center;
+}
+
+.header {
+    background: #dce8df;
+    padding: 30px;
+}
+
+a {
+    color: white;
+    background: #557464;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+#produits {
+    padding: 30px;
+}
+
+.carte {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    padding: 15px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+
+footer {
+    padding: 15px;
+}
