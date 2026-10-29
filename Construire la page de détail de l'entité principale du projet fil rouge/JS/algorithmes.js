@@ -23,7 +23,7 @@ let position=-1;
 for(let i=0;i<nombre.length;i++){
     if(nombre[i] === recherche){
         position=i;
-        break;
+        break
     }
 }
 if(position !== -1){
