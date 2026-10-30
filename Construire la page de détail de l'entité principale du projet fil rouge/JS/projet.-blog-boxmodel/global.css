@@ -1,0 +1,21 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background:white;
+    font-family: Arial, sans-serif;
+    color:#1f2937;
+    line-height: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
