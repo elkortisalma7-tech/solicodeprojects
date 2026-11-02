@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mon Blog Personnel</title>
+
+    <!-- Fichiers CSS -->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/pages.css">
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header class="en-tete-site">
+
+        <nav class="barre-navigation">
+
+            <a href="index.html" class="logo">
+                <span class="logo-sombre">Mon</span>
+                <span class="logo-couleur">Blog.</span>
+            </a>
+
+            <ul class="liens-navigation">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Catégories</a></li>
+                <li><a href="#">À propos</a></li>
+            </ul>
+
+            <a href="#" class="bouton-principal">
+                Espace Admin
+            </a>
+
+        </nav>
+
+    </header>
+
+
+    <!-- MAIN -->
+    <main>
+
+        <!-- BANNIÈRE D'ACCUEIL -->
+        <section class="banniere-accueil">
+
+            <h1>
+                Mon Blog Personnel :
+                <br>
+                <span>Développer &amp; Partager</span>
+            </h1>
+
+            <p>
+                Découvrez mes derniers articles sur le développement web,
+                l'architecture logicielle et les bonnes pratiques
+                d'intégration UI/UX.
+            </p>
+
+            <div class="actions-banniere">
+
+                <a href="#articles" class="bouton-principal">
+                    Lire les articles
+                </a>
+
+                <a href="#" class="bouton-secondaire">
+                    À propos de moi
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPLORER PAR THÈME -->
+        <section class="section-themes">
+
+            <h2>Explorer par thème</h2>
+
+            <div class="liste-filtres">
+
+                <button class="pilule-filtre actif">
+                    Tous les articles
+                </button>
+
+                <button class="pilule-filtre">
+                    Développement
+                </button>
+
+                <button class="pilule-filtre">
+                    Design UI/UX
+                </button>
+
+                <button class="pilule-filtre">
+                    Management
+                </button>
+
+                <button class="pilule-filtre">
+                    Tutoriels
+                </button>
+
+                <button class="pilule-filtre">
+                    Inspirations
+                </button>
+
+                <button class="pilule-filtre">
+                    Outils
+                </button>
+
+                <button class="pilule-filtre">
+                    Tendances 2026
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- DERNIÈRES PUBLICATIONS -->
+        <section class="section-articles" id="articles">
+
+            <div class="entete-articles">
+
+                <div>
+                    <h2>Dernières publications</h2>
+
+                    <p>
+                        Les articles les plus récents de la communauté.
+                    </p>
+                </div>
+
+                <a href="#" class="lien-explorer">
+                    Explorer tout
+                </a>
+
+            </div>
+
+
+            <!-- CONTENEUR FLEXBOX DES CARTES -->
+            <div class="conteneur-cartes">
+
+
+                <!-- CARTE 1 -->
+                <article class="carte-article">
+
+                    <span class="categorie-article">
+                        Développement
+                    </span>
+
+                    <h3>
+                        Comment bien débuter avec Tailwind CSS en 2026 ?
+                    </h3>
+
+                    <p>
+                        Découvrez les concepts fondamentaux de Tailwind CSS
+                        et pourquoi cette approche utilitaire est devenue
+                        le standard de l'industrie.
+                    </p>
+
+                    <div class="informations-article">
+                        <span>14 Fév 2026</span>
+                        <span>5 min</span>
+                    </div>
+
+                </article>
+
+
+                <!-- CARTE 2 -->
+                <article class="carte-article">
+
+                    <span class="categorie-article">
+                        UI / UX
+                    </span>
+
+                    <h3>
+                        L'importance des micro-interactions
+                    </h3>
+
+                    <p>
+                        Une interface belle n'est pas suffisante.
+                        Comprendre comment animer de petites actions
+                        peut transformer l'expérience utilisateur.
+                    </p>
+
+                    <div class="informations-article">
+                        <span>10 Fév 2026</span>
+                        <span>3 min</span>
+                    </div>
+
+                </article>
+
+
+                <!-- CARTE 3 -->
+                <article class="carte-article">
+
+                    <span class="categorie-article">
+                        Management
+                    </span>
+
+                    <h3>
+                        Gérer une équipe de développeurs en Full Remote
+                    </h3>
+
+                    <p>
+                        Les méthodes agiles et les rituels essentiels
+                        pour maintenir la cohésion de groupe et la
+                        productivité lorsque tous les membres sont distribués.
+                    </p>
+
+                    <div class="informations-article">
+                        <span>05 Fév 2026</span>
+                        <span>8 min</span>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="pied-de-page">
+
+        <div class="conteneur-pied-de-page">
+
+
+            <!-- PREMIÈRE COLONNE -->
+            <div class="colonne-pied-de-page">
+
+                <h2>Mon Blog</h2>
+
+                <p>
+                    Partager des connaissances, des tutoriels
+                    et des découvertes sur le développement web.
+                </p>
+
+            </div>
+
+
+            <!-- DEUXIÈME COLONNE -->
+            <div class="colonne-pied-de-page">
+
+                <h2>Navigation</h2>
+
+                <ul>
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#">Catégories</a></li>
+                    <li><a href="#">À propos</a></li>
+                </ul>
+
+            </div>
+
+
+            <!-- TROISIÈME COLONNE -->
+            <div class="colonne-pied-de-page">
+
+                <h2>Contact</h2>
+
+                <p>
+                    Retrouvez les nouveaux articles chaque semaine.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <!-- BAS DU FOOTER -->
+        <div class="bas-pied-de-page">
+
+            <p>&copy; 2026 Mon Blog Personnel.</p>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
