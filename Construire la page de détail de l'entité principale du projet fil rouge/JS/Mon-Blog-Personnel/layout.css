@@ -1,0 +1,46 @@
+
+/* Barre de navigation */
+.barre-navigation {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #f3f4f6;
+}
+
+/* Logo */
+.logo {
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: bold;
+    color: #111827;
+}
+
+/* Liens de navigation */
+.liens-navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.liens-navigation a {
+    text-decoration: none;
+    color: #111827;
+}
+
+/* Bouton */
+.barre-navigation button {
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Footer */
+.conteneur-pied-de-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 48px;
+}

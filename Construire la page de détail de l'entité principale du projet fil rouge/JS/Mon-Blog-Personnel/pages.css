@@ -1,0 +1,115 @@
+
+/* Contenu principal */
+.contenu-principal {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.contenu-principal h1 {
+    font-size: 36px;
+    color: #111827;
+    margin-bottom: 20px;
+}
+
+.contenu-principal p {
+    font-size: 18px;
+    color: #6b7280;
+}
+
+/* Section Navigation */
+.section-navigation {
+    padding: 30px 40px;
+}
+
+.section-navigation h2 {
+    margin-bottom: 15px;
+}
+
+.section-navigation ul {
+    padding-left: 20px;
+}
+
+.section-navigation a {
+    color: #2563eb;
+    text-decoration: none;
+}
+
+/* Section Contact */
+.section-contact {
+    padding: 30px 40px;
+}
+
+.section-contact h2 {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 25px;
+    background-color: #f3f4f6;
+    color: #6b7280;
+}
+
+
+.filtre-categories {
+    margin: 64px 24px;
+    text-align: center;
+}
+
+.filtre-categories h2 {
+    margin: 0 0 20px;
+    color: #111827;
+    font-size: 18px;
+}
+.liste-filtres {
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+}
+/* Section Articles */
+.section-articles {
+    padding: 80px 24px;
+}
+
+.conteneur-articles {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.entete-liste-articles {
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.entete-liste-articles h2 {
+    margin: 0;
+    color: #111827;
+    font-family: Georgia, serif;
+    font-size: 32px;
+}
+
+.entete-liste-articles p {
+    margin: 8px 0 0;
+    color: #6b7280;
+}
+
+.lien-voir-tout {
+    color: #2673e8;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.grille-articles {
+    display: flex;
+    gap: 32px;
+}
+.section-articles { padding: 80px 24px; }
+.conteneur-articles { max-width: 1200px; margin: 0 auto; }
+.entete-liste-articles { margin-bottom: 32px; display: flex; justify-content: space-between; align-items: flex-end; }
+.entete-liste-articles h2 { margin: 0; color: #111827; font-family: Georgia, serif; font-size: 32px; }
+.entete-liste-articles p { margin: 8px 0 0; color: #6b7280; }
+.lien-voir-tout { color: #2673e8; font-size: 14px; font-weight: 600; }
+.grille-articles { display: flex; gap: 32px; }
