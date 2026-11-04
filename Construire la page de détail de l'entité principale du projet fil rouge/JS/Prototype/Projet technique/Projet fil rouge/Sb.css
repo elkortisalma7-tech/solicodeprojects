@@ -1,0 +1,172 @@
+```css
+/* 1. Réinitialisation générale */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Style général */
+body {
+    font-family: Arial, sans-serif;
+    background: #f5f3ef;
+    color: #263b32;
+    line-height: 1.6;
+}
+
+/* 3. Header */
+.header {
+    background: #dce8df;
+    padding: 20px 40px;
+}
+
+/* Navigation avec Flexbox */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation h1 {
+    font-size: 28px;
+    color: #263b32;
+}
+
+/* Liens de navigation */
+.liens-navigation {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+}
+
+.liens-navigation a {
+    color: #263b32;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* 4. Section Accueil */
+.accueil {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.accueil h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.accueil p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #557464;
+}
+
+/* Bouton */
+.bouton {
+    display: inline-block;
+    background: #557464;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+/* 5. Section Produits */
+.produits {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.produits h2 {
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+/* Conteneur des cartes avec Flexbox */
+.conteneur-cartes {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+/* Cartes produits */
+.carte {
+    background: white;
+    width: 220px;
+    padding: 25px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.carte h3 {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.carte p {
+    margin-bottom: 15px;
+    color: #557464;
+}
+
+.carte strong {
+    color: #263b32;
+    font-size: 18px;
+}
+
+/* 6. Section À propos */
+.apropos {
+    text-align: center;
+    padding: 60px 20px;
+    background: #dce8df;
+}
+
+.apropos h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+/* 7. Footer */
+.footer {
+    background: #263b32;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* 8. Responsive */
+@media (max-width: 600px) {
+
+    .header {
+        padding: 20px;
+    }
+
+    .navigation {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .liens-navigation {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .accueil h2 {
+        font-size: 28px;
+    }
+
+    .produits {
+        padding: 40px 20px;
+    }
+
+    .carte {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+```
