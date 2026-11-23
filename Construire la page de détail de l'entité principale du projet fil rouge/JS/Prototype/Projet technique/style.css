@@ -1,0 +1,91 @@
+
+body {
+    font-family: Arial;
+    background-color: #fff5f7;
+    color: #59434b;
+    margin: 0;
+}
+
+header {
+    background-color: #f8dce5;
+    text-align: center;
+    padding: 30px;
+    border-radius: 40px;
+}
+
+header h1 {
+    color: #a64d6b;
+    font-size: 30px;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+
+}
+
+nav a {
+    color: #a64d6b;
+    margin: 10px;
+    flex-direction: column;
+}
+
+main {
+    margin: 30px;
+}
+
+section {
+    background-color: white;
+    text-align: center;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 30px;
+    
+}
+section p{
+    font-size: 25px;
+}
+
+section h2 {
+    color: #a64d6b;
+    font-size: 60px;
+}
+
+/* IMAGE BLOG */
+#blog img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 60px;
+    overflow: hidden;;
+}
+
+/* COMPETENCES */
+#competences p {
+    display: inline-block;
+    background-color: #f8dce5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 40px;
+}
+
+
+
+/* PROJETS */
+#projets p {
+    display: inline-block;
+    background-color: #f8dce5;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 40px;
+    
+}
+
+/* FOOTER */
+footer {
+    background-color: #e9b9ca;
+    text-align: center;
+    padding: 25px;
+    color: #663c4c;
+    border-radius: 40px;
+}
