@@ -1,30 +1,22 @@
 <?php
-
-$article = [
+$articles = [
     [
-        'id'=> 1 ,
-        'titre ' => 'comment structrer',
-        'contenu' => 'décovrer les disign',
-        'image' => 'article-exepmle.png',
-        'date_création' => '2026-11-11',
+        'id' => 1,
+        'titre' => 'Comment structurer ses composants UI avec Atomic Design ?',
+        'contenu' => 'Découvrez les concepts fondamentaux de la méthode Atomic Design...',
+        'image' => 'article-example.png',
+        'date_creation' => '2026-02-14',
         'categorie_libelle' => 'Développement',
-        'categorie_color' => 'red',
-
+        'categorie_couleur' => 'bleu'
     ],
     [
-        'id'=>2 ,
-        'titre' => 'mitreser',
-        'contenu' => 'interfacer',
-        'image' => ' article-exemple.png',
-        'date_création' => '2026-11-11',
-        'categorie_libelle'=> 'Design UI/UX',
-        'categorie_color' => ' rose',
-
+        'id' => 2,
+        'titre' => 'Maîtriser les micro-interactions UX',
+        'contenu' => 'Une interface belle n\'est pas suffisante...',
+        'image' => 'article-example.png',
+        'date_creation' => '2026-02-10',
+        'categorie_libelle' => 'Design UI/UX',
+        'categorie_couleur' => 'rose'
     ]
 ];
-
-echo " ARTICLE 1 :" .$article[0]['contenu']."(" .$article[0]['categorie_color'] .") <br>" ;
-
-echo "ARTICLE 2 : " .$article[1]['contenu']."(".$article[1]['categorie_color'] .")";
-
-    ?>
+require "index-template.php";
